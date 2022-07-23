@@ -1,3 +1,5 @@
+# Удалить из текста слова, содержащие 'абв'
+
 def istheretext (string, part_string):
     thereis = False
     for i in range(len(string)-len(part_string)+1):
